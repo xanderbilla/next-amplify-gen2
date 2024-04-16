@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Navbar({}: Props) {
   return (
-    <div className="w-full h-24 flex items-center justify-between gap-4 px-0 md:px-24">
+    <div className="w-full h-24 flex items-center justify-between gap-4">
       <ProjectLogo onlyProjectLogo />
       <Link
         href="https://github.com/xanderbilla/next-amplify-gen2"
